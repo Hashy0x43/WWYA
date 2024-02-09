@@ -1,0 +1,18 @@
+
+<html>
+	<head>
+		<title>
+			Weather App
+		</title>
+		<link rel="stylesheet" href="../static/style.css">
+	</head>
+	<body>
+		<div class="information">
+			<h6 id="title">{{ location["city"] }}, {{ location["region"] }}</h6>
+			<h1 id="temp">{{ weather["main"]["temp"] }}&deg;{{ shortUnit }}</h1>
+			<h6 id="location">{{ weather["weather"][0]["main"] }}</h6>
+		</div>
+	</body>
+</html>
+
+

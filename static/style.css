@@ -1,0 +1,30 @@
+
+body{
+	background-color: black;
+}
+
+div.information{
+	margin: auto;
+	border: 5px outset green;
+	background-color: green;
+	color: black;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	right: 40%;
+	bottom: 50%
+}
+
+#title{
+	font-size: 12px;
+}
+
+#tempature{
+	font-size: 32px;
+	border: 5px black;
+}
+
+#location{
+	font-size: 12px;
+}
+
